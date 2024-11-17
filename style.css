@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+footer{
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0;
+    display: grid;
+    justify-content: center;
+    margin-top: 477px;
+}
+
+footer .parent{
+    width: 545px;
+    height: 150px;
+}
+
+footer .parent h1{
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+footer .parent p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+footer .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 68px;
+}
+
+footer .banner div{
+    border: 2px solid #999;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
