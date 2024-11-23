@@ -5,6 +5,179 @@
     position: relative;
 }
 
+.foundation{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    height: 530px;
+    background-color: rgb(252, 241, 241);
+    margin-top: 100px;
+}
+
+.foundation h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.foundation .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.foundation .parent .person{
+    background-color: white;
+    width: 340px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.foundation .parent h1{
+    font-size: 23px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.foundation .parent span{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: grey;
+}
+
+.foundation .parent p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+
+header{
+    background-color: #1A5FAD;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+header .parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    color: white;
+    gap: 13px;
+}
+
+header .parent div{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header .parent .one h1{
+    font-size: none;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(186, 186, 179);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+nav{
+    background-color: rgb(241, 241, 235);
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+nav div{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+nav div h1{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 35px;
+}
+
+nav div p{
+    display: flex;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 1300px;
+}
+
+section{
+    display: flex;
+}
+
+section .help{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .help div{
+    width: 400px;
+    height: 250px;
+    padding-top: 55px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+section .help div h1{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+section .help div h1 i{
+    color: #1A5FAD;
+}
+
+section .help div p{
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+section .help div button{
+    font-size: 23px;
+    background-color: #1A5FAD;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+
 footer{
     background-color: #111;
     color: #fff;
@@ -12,12 +185,12 @@ footer{
     padding-bottom: 0;
     display: grid;
     justify-content: center;
-    margin-top: 477px;
+    margin-top: 70px;
 }
 
 footer .parent{
-    width: 545px;
-    height: 150px;
+    width: 515px;
+    height: 130px;
 }
 
 footer .parent h1{
